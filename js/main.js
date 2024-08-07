@@ -408,6 +408,10 @@
         });
     };
 
+    var ssCustomFunction = function() {
+        console.log("custom function !");
+    };
+
    /* Initialize
     * ------------------------------------------------------ */
     (function ssInit() {
@@ -426,6 +430,7 @@
         ssAlertBoxes();
         ssContactForm();
         ssBackToTop();
+        ssCustomFunction();
     })();
 
 
