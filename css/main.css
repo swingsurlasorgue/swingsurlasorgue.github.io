@@ -1525,7 +1525,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     outline: 0;
     border: none;
     width: 800px;
-
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
