@@ -408,11 +408,6 @@
         });
     };
 
-    var loadHeader = function() {
-        console.log("custom function !");
-        var eHeader = document.createElement("header");
-    };
-
    /* Initialize
     * ------------------------------------------------------ */
     (function ssInit() {
@@ -432,7 +427,6 @@
         ssAlertBoxes();
         ssContactForm();
         ssBackToTop();
-        loadHeader();
     })();
 
 
