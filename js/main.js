@@ -421,7 +421,7 @@
         ssSlickSlider();
         ssWaypoints();
         ssStatCount();
-        ssSmoothScroll();
+        // ssSmoothScroll();
         ssPlaceholder();
 
         ssAlertBoxes();
