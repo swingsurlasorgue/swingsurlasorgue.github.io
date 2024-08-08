@@ -408,8 +408,9 @@
         });
     };
 
-    var ssCustomFunction = function() {
+    var loadHeader = function() {
         console.log("custom function !");
+        var eHeader = document.createElement("header");
     };
 
    /* Initialize
@@ -427,10 +428,11 @@
         ssStatCount();
         ssSmoothScroll();
         ssPlaceholder();
+
         ssAlertBoxes();
         ssContactForm();
         ssBackToTop();
-        ssCustomFunction();
+        loadHeader();
     })();
 
 
