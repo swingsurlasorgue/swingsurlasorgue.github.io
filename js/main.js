@@ -61,12 +61,15 @@
 
         var hero = $('.page-hero'),
             hdr = $('header'),
-            triggerHeight = hero.outerHeight() - 170;
+            triggerHeight = hero.outerHeight();
+            console.log("triggerHeight = ");
+            console.log(triggerHeight);
 
 
         $WIN.on('scroll', function () {
 
             var loc = $WIN.scrollTop();
+            console.log(loc);
 
             if (loc > triggerHeight) {
                 hdr.addClass('sticky');
@@ -414,7 +417,7 @@
 
         ssPreloader();
         ssPrettyPrint();
-        ssMoveHeader();
+        // ssMoveHeader();
         ssMobileMenu();
         ssMasonryFolio();
         ssPhotoswipe();
