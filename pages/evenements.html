@@ -14,10 +14,7 @@
       <link rel="stylesheet" href="/css/vendor.css"/>
       <link rel="stylesheet" href="/css/main.css"/>
       <!-- script    ================================================== -->
-      <script
-        src="https://code.jquery.com/jquery-3.7.1.min.js"
-        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-        crossorigin="anonymous">
+      <script src="/js/jquery-3.7.1.min.js">
       </script>
       <script src="/js/modernizr.js">
       </script>
@@ -26,6 +23,10 @@
       <!-- favicons    ================================================== -->
       <link rel="shortcut icon" href="/images/site-logo.png" type="image/x-icon"/>
       <link rel="icon" href="/images/site-logo.png" type="image/x-icon"/>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment-with-locales.min.js"></script>
+      <link rel="stylesheet" href="/css/datatables.min.css" />
+      <script src="/js/datatables.min.js"></script>
+      <script src="/js/eventtables.js"></script>
 
       <script type="text/javascript">
         $(document).ready(function () {
@@ -51,6 +52,14 @@
         <div class="row about-content">
             <p>Pas d'évènements à venir pour le moment</p>
         </div>
+
+        <div class="row about-content">
+          <h1>Concerts à venir</h1>
+          <table id="next-concert-table"></table>
+          <br/>
+          <h1>Concerts passés</h1>
+          <table id="past-concert-table"></table>
+      </div>
 
       </section>
 

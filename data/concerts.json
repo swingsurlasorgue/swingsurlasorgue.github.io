@@ -1,0 +1,7 @@
+{
+    "concerts":
+    [
+        {"date": "2024-09-08", "groupe": "Trio Les Gros", "evenement": "Privé", "localisation": "Cabannes - 13"},
+        {"date": "2024-08-15", "groupe": "Trio Les Maigres", "evenement": "Privé mais pas que...", "localisation": "Cabannes - 13"}
+    ]
+}
