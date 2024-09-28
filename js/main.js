@@ -147,60 +147,6 @@
     };
 
 
-    /* photoswipe
-     * ----------------------------------------------------- */
-    var ssPhotoswipe = function() {
-        var items = [],
-            $pswp = $('.pswp')[0],
-            $folioItems = $('.item-folio');
-
-            // get items
-            $folioItems.each( function(i) {
-
-                var $folio = $(this),
-                    $thumbLink =  $folio.find('.thumb-link'),
-                    $title = $folio.find('.item-folio__title'),
-                    $caption = $folio.find('.item-folio__caption'),
-                    $titleText = '<h4>' + $.trim($title.html()) + '</h4>',
-                    $captionText = $.trim($caption.html()),
-                    $href = $thumbLink.attr('href'),
-                    $size = $thumbLink.data('size').split('x'),
-                    $width  = $size[0],
-                    $height = $size[1];
-         
-                var item = {
-                    src  : $href,
-                    w    : $width,
-                    h    : $height
-                }
-
-                if ($caption.length > 0) {
-                    item.title = $.trim($titleText + $captionText);
-                }
-
-                items.push(item);
-            });
-
-            // bind click event
-            $folioItems.each(function(i) {
-
-                $(this).on('click', function(e) {
-                    e.preventDefault();
-                    var options = {
-                        index: i,
-                        showHideOpacity: true
-                    }
-
-                    // initialize PhotoSwipe
-                    var lightBox = new PhotoSwipe($pswp, PhotoSwipeUI_Default, items, options);
-                    lightBox.init();
-                });
-
-            });
-
-    };
-
-
     /* slick slider
      * ------------------------------------------------------ */
     var ssSlickSlider = function() {
@@ -411,6 +357,40 @@
         });
     };
 
+    var ssLoadPhotoswipe = function() {
+        var photoswipe = document.querySelector("#photoswipe");
+        if(photoswipe) {
+            var folder = photoswipe.dataset.folder;
+            var photoswipeContainer = document.createElement("div");
+            photoswipeContainer.classList.add("band-gallery");
+            photoswipe.appendChild(photoswipeContainer);
+            $.getJSON(folder, data => {
+                for(let i=0 ; i<data.length; i++) {
+                    let filen = data[i];
+                    let photobox = document.createElement("div");
+                    photobox.classList.add("band-img-box");
+                    photoswipeContainer.appendChild(photobox);
+                    let anchor = document.createElement("a");
+                    anchor.href = photoswipe.dataset.folder + "/" + filen;
+                    photobox.appendChild(anchor);
+                    let image = document.createElement("img");
+                    image.src = photoswipe.dataset.folder + "/" + filen;
+                    image.onload = function() {
+                        anchor.setAttribute("data-pswp-height", this.naturalHeight.toString());
+                        anchor.setAttribute("data-pswp-width", this.naturalWidth.toString());
+                    };
+                    anchor.appendChild(image);
+                }
+            });
+            const lightbox = new PhotoSwipeLightbox({
+                gallery: '.band-gallery',
+                children: 'div a',
+                pswpModule: PhotoSwipe 
+              });
+              lightbox.init();
+        }
+    };
+
    /* Initialize
     * ------------------------------------------------------ */
     (function ssInit() {
@@ -420,7 +400,6 @@
         // ssMoveHeader();
         ssMobileMenu();
         ssMasonryFolio();
-        ssPhotoswipe();
         ssSlickSlider();
         ssWaypoints();
         ssStatCount();
@@ -430,6 +409,7 @@
         ssAlertBoxes();
         ssContactForm();
         ssBackToTop();
+        ssLoadPhotoswipe();
     })();
 
 
