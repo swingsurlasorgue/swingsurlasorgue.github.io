@@ -365,6 +365,7 @@
             photoswipeContainer.classList.add("band-gallery");
             photoswipe.appendChild(photoswipeContainer);
             $.getJSON(piclist, data => {
+                console.log(data);
                 for(let i=0 ; i<data.length; i++) {
                     let filen = data[i];
                     let photobox = document.createElement("div");
