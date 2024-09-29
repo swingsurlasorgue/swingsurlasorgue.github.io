@@ -360,27 +360,29 @@
     var ssLoadPhotoswipe = function() {
         var photoswipe = document.querySelector("#photoswipe");
         if(photoswipe) {
-            var folder = photoswipe.dataset.folder;
+            var piclist = photoswipe.dataset.list;
             var photoswipeContainer = document.createElement("div");
             photoswipeContainer.classList.add("band-gallery");
             photoswipe.appendChild(photoswipeContainer);
-            $.getJSON(folder, data => {
+            $.getJSON(piclist, data => {
                 for(let i=0 ; i<data.length; i++) {
                     let filen = data[i];
                     let photobox = document.createElement("div");
                     photobox.classList.add("band-img-box");
                     photoswipeContainer.appendChild(photobox);
                     let anchor = document.createElement("a");
-                    anchor.href = photoswipe.dataset.folder + "/" + filen;
+                    anchor.href = filen;
                     photobox.appendChild(anchor);
                     let image = document.createElement("img");
-                    image.src = photoswipe.dataset.folder + "/" + filen;
+                    image.src = filen;
                     image.onload = function() {
                         anchor.setAttribute("data-pswp-height", this.naturalHeight.toString());
                         anchor.setAttribute("data-pswp-width", this.naturalWidth.toString());
                     };
                     anchor.appendChild(image);
                 }
+            }).fail(function() {
+                console.log("error");
             });
             const lightbox = new PhotoSwipeLightbox({
                 gallery: '.band-gallery',
