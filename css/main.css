@@ -1514,7 +1514,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: absolute;
     left: 1vw;
     top: 0vw;
-    margin: 0.5vw;
+    margin: 1vw;
     padding: 0;
     z-index: 501;
 }
