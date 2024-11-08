@@ -394,6 +394,64 @@
         }
     };
 
+    var buildEventTable = function(jDivElement, jdata, selectFunction) {
+        var jconcerts = jdata["concerts"];
+        var jselectedConcerts = [];
+        jconcerts.forEach(function(obj) {
+            if(selectFunction) {
+                if(selectFunction(obj)) {
+                    jselectedConcerts.push(obj);
+                }
+            }
+            else {
+                jselectedConcerts.push(obj);
+            }
+        });
+        if(0 == jselectedConcerts.length) {
+            return;
+        }
+        $(jDivElement).DataTable({
+            data: jselectedConcerts,
+            order: [[0, 'asc']],
+            searching: false,
+            paging: false,
+            info: false,
+            scrollX: true,
+            scrollY: '50vh',
+            columns: [
+                {title: "Date", data: "date"},
+                {title: "Evenement", data: "evenement"},
+                {title: "Lieu", data: "lieu"},
+                {title: "Ville", data: "ville"}
+            ]
+        });
+    };
+
+    var ssInitEventTables = function() {
+        $(document).ready(function() {
+            let today = new Date();
+            $(".incoming-events-table").each(function() {
+                let eventsFile = this.dataset.list;
+                let title = this.dataset.title;
+                let tableElement = document.createElement("table");                
+                let titleElement = document.createElement("h4");
+                titleElement.innerHTML = title;
+                $(this).append(titleElement);
+                $(this).append(tableElement);
+                fetch(eventsFile)
+                .then(function(response){
+                    return response.json();
+                })
+                .then(function(jdata){
+                    buildEventTable(tableElement, jdata, function(obj) {
+                        let d = new Date(obj["date"]);
+                        return (d > today);
+                    });                    
+                });
+            });
+        });
+    };
+
    /* Initialize
     * ------------------------------------------------------ */
     (function ssInit() {
@@ -413,6 +471,7 @@
         ssContactForm();
         ssBackToTop();
         ssLoadPhotoswipe();
+        ssInitEventTables();
     })();
 
 

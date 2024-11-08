@@ -10,10 +10,12 @@
       <!-- mobile specific metas    ================================================== -->
       <meta name="viewport" content="width=device-width, initial-scale=1"/>
       <!-- CSS    ================================================== -->
+      <link rel="stylesheet" href="/css/datatables.min.css"/>
       <link rel="stylesheet" href="/css/base.css"/>
       <link rel="stylesheet" href="/css/vendor.css"/>
       <link rel="stylesheet" href="/css/main.css"/>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
       <!-- script    ================================================== -->
       <script
         src="https://code.jquery.com/jquery-3.7.1.min.js"
@@ -57,7 +59,7 @@
             <h1>Trio Accord Sensible</h1>
           </div>
           <div class="row narrow section-intro">
-            <img src="/images/accordsensible/banner.jpeg" alt=""/>
+            <img src="/data/accordsensible/images/banner.jpeg" alt=""/>
           </div>
         </div>
 
@@ -93,8 +95,11 @@
           <i class="fa fa-instagram" style="display: inline-block;"></i> Instagram: <a href="http://instagram.com/_u/trioaccordsensible/">@trioaccordsensible</a><br/>
           <img src="/images/lkb-min-color.png" class="country-flag"></img> Linkaband: <a href="https://linkaband.com/accord-sensible">Trio Accord Sensible</a>
 
-          <h4>Calendrier</h4>
-          Retrouvez tous nos évènements <a href="https://www.facebook.com/trioaccordsensible/events">ici</a>.
+          <!-- Evenements -->
+          <div class="band-event-table incoming-events-table" 
+            data-list="/data/accordsensible/events.json"
+            data-title="&Eacute;vènements à venir">
+          </div>
           
 
           <h4>Contact <img class="country-flag" src="/images/flags/fr.png"/> <img class="country-flag" src="/images/flags/us.png"/></h4>
@@ -104,7 +109,7 @@
           <i class="fa fa-arrow-right" style="display: inline-block;"></i> Sammy: 06 83 74 32 59</p>
 
           <!-- Photo gallery ! -->
-          <div class="band-gallery-container" id="photoswipe" data-list="/images/accordsensible/gallery/photoswipe.json"></div>
+          <div class="band-gallery-container" id="photoswipe" data-list="/data/accordsensible/images/gallery/photoswipe.json"></div>
 
         </div>
       </section>
