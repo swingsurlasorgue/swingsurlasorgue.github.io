@@ -4274,6 +4274,12 @@ article.blog-single .blog-content {
     margin: 0 10%;
 }
 
+.youtube-video-3col iframe {
+    width: 100%;
+    height: 200px;
+    padding: 0 5px;
+}
+
 .text-highlight {
     color: #862121;
     font-weight: bold;
