@@ -1654,10 +1654,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 
 .header-nav-wrap {
-    font-family: "montserrat-bold", sans-serif;
-    font-size: 0.8vw;
-    text-transform: uppercase;
-    letter-spacing: 0.1vw;
+    font-family: "montserrat-regular", sans-serif;
+    font-size: 1.2vw;
     position: absolute;
     top: 2.5vw;
     right:2vw;
@@ -1682,9 +1680,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     color: #FFFFFF;
 }
 
-.header-nav li.current a {
-    font-family: "montserrat-extrabold", sans-serif;
-    color: #af2b2b;
+.header-nav li a:hover {
+    color: #af2b2b !important;
 }
 
 
@@ -1704,6 +1701,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
         right: auto;
         top: 0;
         left: 0;
+        font-size: 3vw;
         background-color: #000000;
         padding: 10vw 4vw 10vw;
     }
@@ -1714,7 +1712,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     }
     .header-nav-wrap .header-nav li {
         display: block;
-        margin: 0;
+        margin: 3vw 0;
         padding: 0;
     }
     .header-nav-wrap .header-nav li a {
@@ -1723,6 +1721,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     }
     .header-menu-toggle {
         display: block;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .header-nav-wrap {
+        font-size: 4vw;
     }
 }
 
@@ -4388,4 +4392,38 @@ table.dataTable th.dt-type-date,
 table.dataTable td.dt-type-numeric,
 table.dataTable td.dt-type-date {
     text-align: left;
+}
+
+.vertical-middle {
+    vertical-align: middle;
+}
+
+div.social-network {
+    margin: 0 0 50px 0;
+    height: 50px;
+}
+
+div.social-network img {
+    height: 50px;
+    height: 50px;
+    margin: 10px 0;
+}
+
+.social-network-logo {
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 10px 10px;
+}
+
+
+@media only screen and (max-width: 500px) {
+    div.social-network {
+        margin: 0 0 100px 0;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    div.social-network {
+        margin: 0 0 150px 0;
+    }
 }
