@@ -27,11 +27,11 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="2.0485264"
-     inkscape:cx="166.21704"
-     inkscape:cy="66.633264"
+     inkscape:cx="214.30039"
+     inkscape:cy="43.689942"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
-     inkscape:window-x="3832"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer2" />
@@ -200,214 +200,242 @@
        y="-10.340667"
        transform="rotate(20.435194)" />
     <g
-       id="g10"
-       transform="translate(-13.065312,-5.5429092)">
-      <circle
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.103571;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
-         id="path5-8-5-07-3-2"
-         cx="66.470833"
-         cy="38.082497"
-         r="3.5" />
+       id="g3-0-9"
+       transform="matrix(1.9410074,0,0,1,43.774229,-5.6112568)">
+      <ellipse
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.107199;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
+         id="path5-8-5-07-3-0-0-2-1-0-9"
+         cy="45.66666"
+         cx="25.18078"
+         rx="2.6673336"
+         ry="2.8542104" />
       <text
          xml:space="preserve"
-         style="font-size:5.66952px;font-family:'Intro Rust';-inkscape-font-specification:'Intro Rust';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0892839;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
-         x="66.462334"
-         y="40.063995"
-         id="text5-6-1"><tspan
-           sodipodi:role="line"
-           id="tspan5-09-6"
-           style="fill:#ffffff;fill-opacity:1;stroke-width:0.0892839"
-           x="66.462334"
-           y="40.063995">C</tspan></text>
+         style="font-size:3.545px;font-family:'Intro Rust';-inkscape-font-specification:'Intro Rust';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0640855;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
+         x="34.98793"
+         y="34.029629"
+         id="text5-6-1-2-12-1-7-5-4-9-16"
+         transform="scale(0.71777182,1.3932004)"><tspan
+           style="font-size:3.545px;fill:#ffffff;fill-opacity:1;stroke-width:0.0640855"
+           x="34.98793"
+           y="34.029629"
+           id="tspan6-4-4-5-8-6"
+           sodipodi:role="line">LA</tspan></text>
     </g>
     <g
-       id="g9"
-       transform="translate(-13.065312,-5.5670789)">
-      <circle
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.103571;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
-         id="path5-8-5-07-3-94"
-         cx="66.470833"
-         cy="30.498329"
-         r="3.5" />
+       id="g3-0-9-0"
+       transform="matrix(1.9410074,0,0,1,4.190816,-28.02809)">
+      <ellipse
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.107199;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
+         id="path5-8-5-07-3-0-0-2-1-0-9-5"
+         cy="45.66666"
+         cx="25.18078"
+         rx="3.1331253"
+         ry="2.8542104" />
       <text
          xml:space="preserve"
-         style="font-size:5.66952px;font-family:'Intro Rust';-inkscape-font-specification:'Intro Rust';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0892839;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
-         x="66.365944"
-         y="32.47699"
-         id="text5-6-1-2-12-1-2"><tspan
-           sodipodi:role="line"
-           style="fill:#ffffff;fill-opacity:1;stroke-width:0.0892839"
-           x="66.365944"
-           y="32.47699"
-           id="tspan6-8">F</tspan></text>
+         style="font-size:3.545px;font-family:'Intro Rust';-inkscape-font-specification:'Intro Rust';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0640855;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
+         x="34.98793"
+         y="34.029629"
+         id="text5-6-1-2-12-1-7-5-4-9-16-9"
+         transform="scale(0.71777182,1.3932004)"><tspan
+           style="font-size:3.545px;fill:#ffffff;fill-opacity:1;stroke-width:0.0640855"
+           x="34.98793"
+           y="34.029629"
+           id="tspan6-4-4-5-8-6-2"
+           sodipodi:role="line">LA#</tspan></text>
     </g>
     <g
-       id="g12-7"
-       transform="translate(45.508334,17.368219)">
-      <circle
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.103571;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
-         id="path5-8-5-07-3-90-5"
-         cx="46.627083"
-         cy="22.914164"
-         r="3.5" />
-      <text
-         xml:space="preserve"
-         style="font-size:5.66952px;font-family:'Intro Rust';-inkscape-font-specification:'Intro Rust';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0892839;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
-         x="46.63842"
-         y="24.915504"
-         id="text5-73-0"><tspan
-           sodipodi:role="line"
-           id="tspan5-0-8"
-           style="fill:#ffffff;fill-opacity:1;stroke-width:0.0892839"
-           x="46.63842"
-           y="24.915504">A</tspan></text>
+       id="g15-6"
+       transform="matrix(1.9410074,0,0,1,1.1660523,-39.794863)">
+      <g
+         id="g3"
+         transform="translate(-11.715965,-14.795203)">
+        <g
+           id="g2"
+           transform="translate(13.441418,33.839365)">
+          <ellipse
+             style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.107199;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
+             id="path5-8-5-07-3-0-0"
+             cy="45.66666"
+             cx="25.18078"
+             rx="2.5849926"
+             ry="2.8542104" />
+          <text
+             xml:space="preserve"
+             style="font-size:3.545px;font-family:'Intro Rust';-inkscape-font-specification:'Intro Rust';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0640855;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
+             x="34.98793"
+             y="34.029629"
+             id="text5-6-1-2-12-1-7"
+             transform="scale(0.71777182,1.3932004)"><tspan
+               style="font-size:3.545px;fill:#ffffff;fill-opacity:1;stroke-width:0.0640855"
+               x="34.98793"
+               y="34.029629"
+               id="tspan6-4"
+               sodipodi:role="line">Fa</tspan></text>
+        </g>
+      </g>
     </g>
     <g
-       id="g15"
-       transform="translate(-0.13328991,-0.41976312)">
-      <circle
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.103571;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
-         id="path5-8-5-07-3-90-5-7"
-         cx="53.538811"
-         cy="17.889666"
-         r="3.5" />
+       id="g3-6-2"
+       transform="matrix(1.9410074,0,0,1,43.405336,-20.827931)">
+      <ellipse
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.107199;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
+         id="path5-8-5-07-3-0-0-2-1-7-6"
+         cy="45.66666"
+         cx="25.18078"
+         rx="3.2790105"
+         ry="2.8542104" />
       <text
          xml:space="preserve"
-         style="font-size:4.30518px;font-family:'Intro Rust';-inkscape-font-specification:'Intro Rust';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0677981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
-         x="53.528046"
-         y="19.409393"
-         id="text5-73-0-0"><tspan
-           sodipodi:role="line"
-           id="tspan5-0-8-3"
-           style="fill:#ffffff;fill-opacity:1;stroke-width:0.0677981"
-           x="53.528046"
-           y="19.409393">A#</tspan></text>
+         style="font-size:3.545px;font-family:'Intro Rust';-inkscape-font-specification:'Intro Rust';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0640855;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
+         x="34.98793"
+         y="34.029629"
+         id="text5-6-1-2-12-1-7-5-4-5-2"
+         transform="scale(0.71777182,1.3932004)"><tspan
+           style="font-size:3.545px;fill:#ffffff;fill-opacity:1;stroke-width:0.0640855"
+           x="34.98793"
+           y="34.029629"
+           id="tspan6-4-4-5-2-8"
+           sodipodi:role="line">SOL</tspan></text>
     </g>
     <g
-       id="g23"
-       transform="translate(-12.964587,-5.5266728)">
-      <circle
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.103571;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
-         id="path5-8-5-07-3-6"
-         cx="86.050003"
-         cy="22.914164"
-         r="3.5" />
+       id="g3-6-2-9"
+       transform="matrix(1.9410074,0,0,1,4.6470123,-43.168209)">
+      <ellipse
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.107199;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
+         id="path5-8-5-07-3-0-0-2-1-7-6-4"
+         cy="45.66666"
+         cx="25.18078"
+         rx="3.2790105"
+         ry="2.8542104" />
       <text
          xml:space="preserve"
-         style="font-size:5.66952px;font-family:'Intro Rust';-inkscape-font-specification:'Intro Rust';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0892839;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
-         x="85.962128"
-         y="24.901331"
-         id="text5-6-0"><tspan
-           sodipodi:role="line"
-           id="tspan5-09-1"
-           style="fill:#ffffff;fill-opacity:1;stroke-width:0.0892839"
-           x="85.962128"
-           y="24.901331">B</tspan></text>
+         style="font-size:3.545px;font-family:'Intro Rust';-inkscape-font-specification:'Intro Rust';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0640855;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
+         x="34.98793"
+         y="34.029629"
+         id="text5-6-1-2-12-1-7-5-4-5-2-7"
+         transform="scale(0.71777182,1.3932004)"><tspan
+           style="font-size:3.545px;fill:#ffffff;fill-opacity:1;stroke-width:0.0640855"
+           x="34.98793"
+           y="34.029629"
+           id="tspan6-4-4-5-2-8-5"
+           sodipodi:role="line">SOL</tspan></text>
     </g>
     <g
-       id="g8-0"
-       transform="translate(-13.065312,-5.4799992)">
-      <circle
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.103571;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
-         id="path5-8-5-07-3-31-3"
-         cx="66.470833"
-         cy="15.329999"
-         r="3.5" />
+       id="g3-59-4-4"
+       transform="matrix(1.9410074,0,0,1,43.632536,-35.786291)">
+      <ellipse
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.107199;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
+         id="path5-8-5-07-3-0-0-2-1-9-1-6"
+         cy="45.66666"
+         cx="25.18078"
+         rx="2.6673336"
+         ry="2.8542104" />
       <text
          xml:space="preserve"
-         style="font-size:5.66952px;font-family:'Intro Rust';-inkscape-font-specification:'Intro Rust';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0892839;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
-         x="66.394295"
-         y="17.305826"
-         id="text5-6-1-2-1-9"><tspan
-           sodipodi:role="line"
-           id="tspan5-09-6-6-2-8"
-           style="fill:#ffffff;fill-opacity:1;stroke-width:0.0892839"
-           x="66.394295"
-           y="17.305826">D</tspan></text>
+         style="font-size:3.545px;font-family:'Intro Rust';-inkscape-font-specification:'Intro Rust';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0640855;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
+         x="34.98793"
+         y="34.029629"
+         id="text5-6-1-2-12-1-7-5-4-0-0-5"
+         transform="scale(0.71777182,1.3932004)"><tspan
+           style="font-size:3.545px;fill:#ffffff;fill-opacity:1;stroke-width:0.0640855"
+           x="34.98793"
+           y="34.029629"
+           id="tspan6-4-4-5-65-6-7"
+           sodipodi:role="line">Mi</tspan></text>
     </g>
     <g
-       id="g8-0-7"
-       transform="translate(25.664584,17.279467)">
-      <circle
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.103571;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
-         id="path5-8-5-07-3-31-3-2"
-         cx="66.470833"
-         cy="15.329999"
-         r="3.5" />
+       id="g3-2-2"
+       transform="matrix(1.9410074,0,0,1,4.701179,-36.069676)">
+      <ellipse
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.107199;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
+         id="path5-8-5-07-3-0-0-2-1-1-8"
+         cy="45.66666"
+         cx="25.18078"
+         rx="2.3850212"
+         ry="2.8542104" />
       <text
          xml:space="preserve"
-         style="font-size:5.66952px;font-family:'Intro Rust';-inkscape-font-specification:'Intro Rust';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0892839;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
-         x="66.394295"
-         y="17.305826"
-         id="text5-6-1-2-1-9-2"><tspan
-           sodipodi:role="line"
-           id="tspan5-09-6-6-2-8-7"
-           style="fill:#ffffff;fill-opacity:1;stroke-width:0.0892839"
-           x="66.394295"
-           y="17.305826">D</tspan></text>
+         style="font-size:3.545px;font-family:'Intro Rust';-inkscape-font-specification:'Intro Rust';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0640855;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
+         x="34.98793"
+         y="34.029629"
+         id="text5-6-1-2-12-1-7-5-4-51-9"
+         transform="scale(0.71777182,1.3932004)"><tspan
+           style="font-size:3.545px;fill:#ffffff;fill-opacity:1;stroke-width:0.0640855"
+           x="34.98793"
+           y="34.029629"
+           id="tspan6-4-4-5-6-1"
+           sodipodi:role="line">RE</tspan></text>
     </g>
     <g
-       id="g25"
-       transform="translate(-12.964597,-5.4746993)">
-      <circle
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.103571;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
-         id="path5-8-5-07-3-04"
-         cx="105.10001"
-         cy="15.329999"
-         r="3.5" />
+       id="g3-2-2-2"
+       transform="matrix(1.9410074,0,0,1,43.453236,-13.032124)">
+      <ellipse
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.107199;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
+         id="path5-8-5-07-3-0-0-2-1-1-8-7"
+         cy="45.66666"
+         cx="25.18078"
+         rx="2.3850212"
+         ry="2.8542104" />
       <text
          xml:space="preserve"
-         style="font-size:5.66952px;font-family:'Intro Rust';-inkscape-font-specification:'Intro Rust';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0892839;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
-         x="105.03765"
-         y="17.311497"
-         id="text5-6-1-2-12-20"><tspan
-           sodipodi:role="line"
-           id="tspan5-09-6-6-1-7"
-           style="fill:#ffffff;fill-opacity:1;stroke-width:0.0892839"
-           x="105.03765"
-           y="17.311497">E</tspan></text>
+         style="font-size:3.545px;font-family:'Intro Rust';-inkscape-font-specification:'Intro Rust';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0640855;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
+         x="34.98793"
+         y="34.029629"
+         id="text5-6-1-2-12-1-7-5-4-51-9-4"
+         transform="scale(0.71777182,1.3932004)"><tspan
+           style="font-size:3.545px;fill:#ffffff;fill-opacity:1;stroke-width:0.0640855"
+           x="34.98793"
+           y="34.029629"
+           id="tspan6-4-4-5-6-1-8"
+           sodipodi:role="line">RE</tspan></text>
     </g>
     <g
-       id="g7"
-       transform="translate(-13.065312,-5.5634511)">
-      <circle
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.103571;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
-         id="path5-8-5-07-3-8"
-         cx="66.470833"
-         cy="7.7458339"
-         r="3.5" />
+       id="g3-5-4"
+       transform="matrix(1.9410074,0,0,1,4.5214336,-13.057195)">
+      <ellipse
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.107199;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
+         id="path5-8-5-07-3-0-0-2-1-3-0"
+         cy="45.66666"
+         cx="25.18078"
+         rx="2.7614379"
+         ry="2.8542104" />
       <text
          xml:space="preserve"
-         style="font-size:5.66952px;font-family:'Intro Rust';-inkscape-font-specification:'Intro Rust';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0892839;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
-         x="66.462334"
-         y="9.7273312"
-         id="text5-6-1-2-12-1-6-7"><tspan
-           sodipodi:role="line"
-           style="fill:#ffffff;fill-opacity:1;stroke-width:0.0892839"
-           x="66.462334"
-           y="9.7273312"
-           id="tspan6-2-2">G</tspan></text>
+         style="font-size:3.545px;font-family:'Intro Rust';-inkscape-font-specification:'Intro Rust';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0640855;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
+         x="34.98793"
+         y="34.029629"
+         id="text5-6-1-2-12-1-7-5-4-8-5"
+         transform="scale(0.71777182,1.3932004)"><tspan
+           style="font-size:3.545px;fill:#ffffff;fill-opacity:1;stroke-width:0.0640855"
+           x="34.98793"
+           y="34.029629"
+           id="tspan6-4-4-5-23-0"
+           sodipodi:role="line">DO</tspan></text>
     </g>
     <g
-       id="g7-2"
-       transform="translate(25.664585,17.455299)">
-      <circle
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.103571;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
-         id="path5-8-5-07-3-8-1"
-         cx="66.470833"
-         cy="7.7458339"
-         r="3.5" />
+       id="g3-3-36"
+       transform="matrix(1.9410074,0,0,1,24.463003,-28.150979)">
+      <ellipse
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.107199;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
+         id="path5-8-5-07-3-0-0-2-1-8-5"
+         cy="45.66666"
+         cx="25.18078"
+         rx="2.4791255"
+         ry="2.8542104" />
       <text
          xml:space="preserve"
-         style="font-size:5.66952px;font-family:'Intro Rust';-inkscape-font-specification:'Intro Rust';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0892839;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
-         x="66.462334"
-         y="9.7273312"
-         id="text5-6-1-2-12-1-6-7-2"><tspan
+         style="font-size:3.545px;font-family:'Intro Rust';-inkscape-font-specification:'Intro Rust';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0640855;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.1;paint-order:markers fill stroke"
+         x="34.98793"
+         y="34.029629"
+         id="text5-6-1-2-12-1-7-5-4-3-4"
+         transform="scale(0.71777182,1.3932004)"><tspan
+           style="font-size:3.545px;fill:#ffffff;fill-opacity:1;stroke-width:0.0640855"
+           x="34.98793"
+           y="34.029629"
            sodipodi:role="line"
-           style="fill:#ffffff;fill-opacity:1;stroke-width:0.0892839"
-           x="66.462334"
-           y="9.7273312"
-           id="tspan6-2-2-5">G</tspan></text>
+           id="tspan3-24">SI</tspan></text>
     </g>
   </g>
 </svg>
