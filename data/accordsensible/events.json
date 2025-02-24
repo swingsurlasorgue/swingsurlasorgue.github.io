@@ -1,7 +1,9 @@
 {
     "concerts":
     [
-        {"date": "2025-07-26", "evenement": "Mariage (privé)", "lieu" : "Le Bellé", "ville": "84 - Villes-sur-Auzon"},
-        {"date": "2025-08-06", "evenement": "Concert", "lieu" : "Musée Campredon", "ville": "84 - L'Isle sur la Sorgue"}
+        {"date": "2025-07-30", "evenement": "Concert", "lieu" : "Musée Campredon", "ville": "84 - L'Isle sur la Sorgue"},
+        {"date": "2025-06-04", "evenement": "Mariage (privé)", "lieu" : "Mas Paradis", "ville": "13 - Le Paradou"},
+        {"date": "2025-07-05", "evenement": "Mariage (privé)", "lieu" : "Eglise", "ville": "83 - Saint-Cyr-sur-Mer"},
+        {"date": "2025-08-09", "evenement": "Mariage (privé)", "lieu" : "Clos d'Hulias", "ville": "30 - Saint-Christol-de-Rodières"}
     ]
 }
