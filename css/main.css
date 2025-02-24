@@ -4345,6 +4345,12 @@ ul.style-tags li {
     border-radius: 5px;
 }
 
+.band-profile-pics h3, .band-profile-pics h4 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
 .band-about p {
     text-align: center;
     font-style: italic;
