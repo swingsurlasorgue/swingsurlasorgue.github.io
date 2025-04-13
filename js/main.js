@@ -394,12 +394,12 @@
         }
     };
 
-    var buildEventTable = function(jDivElement, jdata, selectFunction) {
+    var buildEventTable = function(jDivElement, jdata, filter) {
         var jconcerts = jdata["concerts"];
         var jselectedConcerts = [];
         jconcerts.forEach(function(obj) {
-            if(selectFunction) {
-                if(selectFunction(obj)) {
+            if(filter) {
+                if(filter(obj)) {
                     jselectedConcerts.push(obj);
                 }
             }
@@ -417,13 +417,40 @@
             paging: false,
             info: false,
             scrollX: true,
-            scrollY: '50vh',
             columns: [
-                {title: "Date", data: "date"},
-                {title: "Evenement", data: "evenement"},
+                {title: "Date", data: "date", render: function(data, type) {
+                    let dateTokens = data.split("-");
+                    const monthNames = ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin",
+                        "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"
+                      ];
+                    let year = dateTokens[0];
+                    let month = monthNames[parseInt(dateTokens[1])-1];
+                    let day = dateTokens[2];
+                    let datestr = `${day} ${month} ${year}`;
+                    return datestr;
+                }},
+                {title: "Groupe", data: "groupe"},
+                {title: "&Eacutev&egravenements", data: "evenement"},
                 {title: "Lieu", data: "lieu"},
                 {title: "Ville", data: "ville"}
             ]
+        });
+    };
+
+    var createEventTableElement = function(element, filter) {
+        let eventsFile = element.dataset.list;
+        let title = element.dataset.title;
+        let tableElement = document.createElement("table");                
+        let titleElement = document.createElement("h4");
+        titleElement.innerHTML = title;
+        $(element).append(titleElement);
+        $(element).append(tableElement);
+        fetch(eventsFile)
+        .then(function(response){
+            return response.json();
+        })
+        .then(function(jdata){
+            buildEventTable(tableElement, jdata, filter);                    
         });
     };
 
@@ -431,24 +458,19 @@
         $(document).ready(function() {
             let today = new Date();
             $(".incoming-events-table").each(function() {
-                let eventsFile = this.dataset.list;
-                let title = this.dataset.title;
-                let tableElement = document.createElement("table");                
-                let titleElement = document.createElement("h4");
-                titleElement.innerHTML = title;
-                $(this).append(titleElement);
-                $(this).append(tableElement);
-                fetch(eventsFile)
-                .then(function(response){
-                    return response.json();
-                })
-                .then(function(jdata){
-                    buildEventTable(tableElement, jdata, function(obj) {
-                        let d = new Date(obj["date"]);
-                        return (d > today);
-                    });                    
+                createEventTableElement(this, function(obj) {
+                    let d = new Date(obj["date"]);
+                    return (d >= today);
                 });
             });
+            $(".past-events-table").each(function() {
+                createEventTableElement(this, function(obj) {
+                    let d = new Date(obj["date"]);
+                    return (d < today);
+                });
+            });
+
+
         });
     };
 

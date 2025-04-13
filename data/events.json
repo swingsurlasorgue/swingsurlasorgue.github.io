@@ -1,0 +1,20 @@
+{
+    "concerts":
+    [
+        {"date": "2025-02-04", "groupe": "Accord Sensible", "evenement": "Rencontre Wedding Planners", "lieu" : "Château des 3 Fontaines", "ville": "84 - Pernes les Fontaines"},
+        {"date": "2025-04-12", "groupe": "Abraço Nova", "evenement": "Concert", "lieu" : "Novotel Le Pontet", "ville": "84 - Sorgues"},
+        {"date": "2025-06-04", "groupe": "Accord Sensible", "evenement": "Mariage (privé)", "lieu" : "Lieu privé", "ville": "13 - Le Paradou"},
+        {"date": "2025-06-06", "groupe": "Abraço Nova", "evenement": "Animation", "lieu" : "Hotel Saint Rémy", "ville": "13 - Saint Rémy de Provence"},
+        {"date": "2025-06-21", "groupe": "Abraço Nova", "evenement": "Mariage (privé)", "lieu" : "Lieu privé", "ville": "30 - Saint-Gilles"},
+        {"date": "2025-07-12", "groupe": "Abraço Nova", "evenement": "Animation", "lieu" : "Hôtel Le Vieux Castillon", "ville": "30 - Castillon du Gard"},
+        {"date": "2025-07-19", "groupe": "Abraço Nova", "evenement": "Animation", "lieu" : "Hôtel Le Vieux Castillon", "ville": "30 - Castillon du Gard"},
+        {"date": "2025-07-23", "groupe": "Accord Sensible", "evenement": "Animation (privé)", "lieu" : "Lieu privé", "ville": "84 - Bonnieux"},
+        {"date": "2025-07-30", "groupe": "Accord Sensible", "evenement": "Concert", "lieu" : "Musée Campredon", "ville": "84 - L'Isle sur la Sorgue"},
+        {"date": "2025-08-09", "groupe": "Accord Sensible", "evenement": "Mariage (privé)", "lieu" : "Lieu privé", "ville": "30 - Saint-Christol-de-Rodières"},
+        {"date": "2025-08-13", "groupe": "Abraço Nova", "evenement": "Mariage (privé)", "lieu" : "Lieu privé", "ville": "84 - Châteauneuf de Gadagne"},
+        {"date": "2025-08-23", "groupe": "Abraço Nova", "evenement": "Mariage (privé)", "lieu" : "Lieu privé", "ville": "30 - Nîmes"},
+        {"date": "2025-08-30", "groupe": "Abraço Nova", "evenement": "Festival des Vents", "lieu" : "Espace Culturel Folard", "ville": "84 - Morières Lès Avignon"},
+        {"date": "2025-09-20", "groupe": "Abraço Nova", "evenement": "Mariage (privé)", "lieu" : "Lieu Privé", "ville": "13 - Saint Rémy de Provence"},
+        {"date": "2025-10-25", "groupe": "Abraço Nova", "evenement": "Concert", "lieu" : "Novotel Le Pontet", "ville": "84 - Sorgues"}
+    ]
+}

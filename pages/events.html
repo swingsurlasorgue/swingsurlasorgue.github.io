@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-3DFLK9EW30"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-3DFLK9EW30');
+      </script>
+
+      <!--- basic page needs    ================================================== -->
+      <meta charset="utf-8"/>
+      <title>Swing sur la Sorgue - Events</title>
+      <meta name="description" content="Jazz manouche à l'Isle sur la Sorgue"/>
+      <meta name="author" content=""/>
+      <!-- mobile specific metas    ================================================== -->
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <!-- CSS    ================================================== -->
+      <link rel="stylesheet" href="/css/datatables.min.css"/>
+      <link rel="stylesheet" href="/css/base.css"/>
+      <link rel="stylesheet" href="/css/vendor.css"/>
+      <link rel="stylesheet" href="/css/main.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <!-- script    ================================================== -->
+      <script
+        src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        crossorigin="anonymous">
+      </script>
+      <script src="/js/modernizr.js">
+      </script>
+      <script src="/js/pace.min.js">
+      </script>
+      <script src="/js/plugin.js">
+      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.4.4/umd/photoswipe.umd.min.js">
+      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.4.4/umd/photoswipe-lightbox.umd.min.js">
+      </script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.4.4/photoswipe.min.css">
+
+      <!-- favicons    ================================================== -->
+      <link rel="shortcut icon" href="/images/site-logo.png" type="image/x-icon"/>
+      <link rel="icon" href="/images/site-logo.png" type="image/x-icon"/>
+
+      <script type="text/javascript">
+        $(document).ready(function () {
+          $("#header_wrap").load("/base/header.html");
+          $("#footer_wrap").load("/base/footer.html");
+        });
+      </script>
+
+    </head>
+    
+    <body>
+
+    	<!-- NAVIGATION -->
+      <div id="header_wrap" class="outer">
+      </div>
+
+      <!-- about    ================================================== -->
+      <section id="about" class="s-about target-section">
+
+        <div class="row narrow section-intro has-bottom-sep">
+          <div class="col-full text-center">
+            <h1>&Eacutev&egravenements</h1>
+          </div>
+        </div>
+
+
+        <div class="row about-content">
+
+          La liste des &eacutev&egravenements autres que les concerts sont disponibles sur <a href="https://www.facebook.com/profile.php?id=61572444659256&sk=events">la page Facebook de Swing sur la Sorgue</a>.
+
+          <h2>Concerts</h2>
+          <!-- Evenements -->
+          <div class="col-full">
+            <div class="band-event-table incoming-events-table" 
+              data-list="/data/events.json"
+              data-title="Concerts à venir">
+            </div>
+          </div>
+
+          <div class="col-full">
+            <div class="band-event-table past-events-table" 
+              data-list="/data/events.json"
+              data-title="Concerts passés">
+            </div>
+          </div>
+          
+
+        </div>
+      </section>
+
+      <div id="footer_wrap" class="outer">
+      </div>
+    </body>
+</html>

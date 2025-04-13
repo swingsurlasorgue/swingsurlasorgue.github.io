@@ -4404,6 +4404,10 @@ table.dataTable td.dt-type-date {
     text-align: left;
 }
 
+.band-event-table > h4 {
+    margin-top: 1.5rem;
+}
+
 .vertical-middle {
     vertical-align: middle;
 }
