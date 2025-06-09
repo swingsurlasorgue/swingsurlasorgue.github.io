@@ -412,7 +412,7 @@
         }
         $(jDivElement).DataTable({
             data: jselectedConcerts,
-            order: [[0, 'asc']],
+            ordering: false,
             searching: false,
             paging: false,
             info: false,
