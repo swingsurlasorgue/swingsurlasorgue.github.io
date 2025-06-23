@@ -7,9 +7,11 @@
         {"date": "2025-06-04", "groupe": "Accord Sensible", "evenement": "Mariage (privé)", "lieu" : "Lieu privé", "ville": "13 - Le Paradou"},
         {"date": "2025-06-06", "groupe": "Abraço Nova", "evenement": "Animation", "lieu" : "Hotel Le Saint Rémy", "ville": "13 - Saint Rémy de Provence"},
         {"date": "2025-06-21", "groupe": "Abraço Nova", "evenement": "Mariage (privé)", "lieu" : "Lieu privé", "ville": "30 - Saint-Gilles"},
+        {"date": "2025-06-22", "groupe": "Accord Sensible (duo)", "evenement": "Animation brunch", "lieu" : "Domaine de la Pierre Blanche", "ville": "13 - Eygalières"},
         {"date": "2025-07-04", "groupe": "Abraço Nova", "evenement": "Animation", "lieu" : "Marché nocturne de Beaucaire", "ville": "30 - Beaucaire"},
         {"date": "2025-07-12", "groupe": "Abraço Nova", "evenement": "Animation", "lieu" : "Hôtel Le Vieux Castillon", "ville": "30 - Castillon du Gard"},
         {"date": "2025-07-19", "groupe": "Abraço Nova", "evenement": "Animation", "lieu" : "Hôtel Le Vieux Castillon", "ville": "30 - Castillon du Gard"},
+        {"date": "2025-07-20", "groupe": "Accord Sensible (duo)", "evenement": "Animation brunch", "lieu" : "Domaine de la Pierre Blanche", "ville": "13 - Eygalières"},
         {"date": "2025-07-23", "groupe": "Accord Sensible", "evenement": "Animation (privé)", "lieu" : "Lieu privé", "ville": "84 - Bonnieux"},
         {"date": "2025-07-25", "groupe": "Accord Sensible (duo)", "evenement": "Vernissage", "lieu" : "Cour des créateurs", "ville": "13 - Salon de Provence"},
         {"date": "2025-07-30", "groupe": "Accord Sensible", "evenement": "Concert", "lieu" : "Musée Campredon", "ville": "84 - L'Isle sur la Sorgue"},
@@ -23,6 +25,5 @@
         {"date": "2025-09-19", "groupe": "Accord Sensible", "evenement": "Festival Jazz Saint Rémy", "lieu" : "Saint Rémy de Provence", "ville": "13 - Saint Rémy de Provence"},
         {"date": "2025-09-20", "groupe": "Abraço Nova", "evenement": "Mariage (privé)", "lieu" : "Lieu Privé", "ville": "13 - Saint Rémy de Provence"},
         {"date": "2025-09-28", "groupe": "Accord Sensible", "evenement": "Festival Pachamama", "lieu" : "Valdoule", "ville": "05 - Valdoule"}
-
     ]
 }
