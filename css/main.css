@@ -4368,6 +4368,24 @@ img.country-flag {
     height: 18px;
 }
 
+img.title-icon {
+    margin: 0;
+    margin-bottom: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 0;
+    width: 60px;
+    height: 60px;
+}
+
+img.whatsapp-diffusion-qr-code {
+    margin: auto;
+    padding-top: 10px;
+    width: 60%;
+    text-align: center;
+}
+
+
 .band-gallery-container {
     display: block;
 }
