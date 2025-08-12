@@ -17,6 +17,7 @@
         {"date": "2025-07-30", "groupe": "Accord Sensible", "evenement": "Concert", "lieu" : "Musée Campredon", "ville": "84 - L'Isle sur la Sorgue"},
         {"date": "2025-08-01", "groupe": "Abraço Nova", "evenement": "Animation", "lieu" : "Marché nocturne de Beaucaire", "ville": "30 - Beaucaire"},
         {"date": "2025-08-09", "groupe": "Accord Sensible", "evenement": "Mariage (privé)", "lieu" : "Lieu privé", "ville": "30 - Saint-Christol-de-Rodières"},
+        {"date": "2025-08-11", "groupe": "Accord Sensible", "evenement": "Soirée privée (privé)", "lieu" : "Lieu privé", "ville": "84 - Robion"},
         {"date": "2025-08-13", "groupe": "Abraço Nova", "evenement": "Mariage (privé)", "lieu" : "Lieu privé", "ville": "84 - Châteauneuf de Gadagne"},
         {"date": "2025-08-14", "groupe": "Accord Sensible (duo)", "evenement": "Animation", "lieu" : "Camping de la Sorguette", "ville": "84 - L'Isle sur la Sorgue"},
         {"date": "2025-08-15", "groupe": "Accord Sensible", "evenement": "Animation / concert", "lieu" : "Domaine de la Coquillade", "ville": "84 - Gargas"},
