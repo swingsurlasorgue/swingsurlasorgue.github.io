@@ -397,7 +397,11 @@ input[type="password"], textarea {
 }
 
 [class*="col-"] {
-    padding: 0 20px;
+    padding: 0 0px;
+}
+
+[class*="col-"] img {
+    padding: 0 5px;
 }
 
 

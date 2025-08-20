@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
 }
 
 h1, .h01, h2, .h02, h3, .h03, h4, .h04 {
-    margin-top: 6rem;
+    margin-top: 2rem;
     margin-bottom: 1.8rem;
 }
 
@@ -1794,13 +1794,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .diapo-frame img {
     display: block;
-    animation: fade-in-out 21s ease infinite 0s;
+    animation: fade-in-out 20s ease infinite 0s;
     opacity: 0;
 }
 
 .diapo-frame img:nth-child(1) {animation-delay: 0s}
-.diapo-frame img:nth-child(2) {animation-delay: 7s}
-.diapo-frame img:nth-child(3) {animation-delay: 14s}
+.diapo-frame img:nth-child(2) {animation-delay: 5s}
+.diapo-frame img:nth-child(3) {animation-delay: 10s}
+.diapo-frame img:nth-child(4) {animation-delay: 15s}
 
 @keyframes fade-in-out {
     0%, 100% {
@@ -2305,7 +2306,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .about-content {
-    margin-bottom: 3vw;
+    margin-bottom: 2vw;
 }
 
 .about-content p {
@@ -4335,6 +4336,7 @@ ul.style-tags li {
     padding: 0px 5px;
     color: #f0f0f0;
     background-color: #862121;
+
     border-radius: 5px;
 }
 
