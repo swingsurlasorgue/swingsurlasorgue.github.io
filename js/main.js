@@ -3,6 +3,8 @@
  *
  * ------------------------------------------------------------------- */
 
+
+
 (function($) {
 
     "use strict";
@@ -18,7 +20,6 @@
     // will be used for IE10 detection (Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0))
     var doc = document.documentElement;
     doc.setAttribute('data-useragent', navigator.userAgent);
-
 
     /* Preloader
      * -------------------------------------------------- */
@@ -474,6 +475,135 @@
         });
     };
 
+    async function loadGoogleMaps(options) {
+        (g=>{
+            var h, a, k, p="The Google Maps JavaScript API", c="google", l="importLibrary", q="__ib__", m=document, b=window;
+            b=b[c]||(b[c]={});
+            var d=b.maps || (b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{
+                await (a=m.createElement("script"));
+                e.set("libraries",[...r]+"");
+                for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);
+                e.set("callback",c+".maps."+q);
+                a.src=`https://maps.${c}apis.com/maps/api/js?`+e;
+                console.log(a.src);
+                d[q]=f;
+                a.onerror=()=>h=n(Error(p+" could not load."));
+                a.nonce=m.querySelector("script[nonce]")?.nonce||"";
+                m.head.append(a)
+            }));
+            d[l] ? console.warn(p+" only loads once. Ignoring:",g) : d[l]=(f,...n) => r.add(f) && u().then(()=>d[l](f,...n))
+        })
+        ({key: options.key, v: "weekly"});
+        // ({key: "AIzaSyBVjfzHm9g41OT0UYZVbq13OO_PA8P21jY", v: "weekly"});
+    };
+
+    $.extend({
+        /**
+         * @brief display google reviews in a HTML element
+         * @param {*} element 
+         * @param {*} options
+         * @see https://developers.google.com/maps/documentation/places/web-service/place-id?hl=fr
+         */
+        googleReviews: async function(element, options) {
+            // load google maps if not yet done
+            await loadGoogleMaps({key: options.googleMapsApiKey});
+
+            const { Place, Review } = await google.maps.importLibrary("places");
+            // Use a place ID to create a new Place instance.
+            const place = new Place({
+                id: options.mapsPlaceID,
+            });
+            // Call fetchFields, passing 'reviews' and other needed fields.
+            await place.fetchFields({
+                fields: ["reviews", "rating"],
+            });
+
+            const template = document.createElement('template');
+            template.innerHTML = 
+            `<div class="google-reviews-header">
+                <div>
+                    <h3 class="google-reviews-header-title">Avis Google</h3>
+                </div>
+                <div class="google-reviews-global-rate-container">
+                    <div class="google-reviews-global-rate"></div>
+                    <div class="google-reviews-global-rating">
+                        <p class="google-review-global-rate">${place.rating}</p> <p> sur 5 basé sur </p> <p class="google-review-total-rate-count">${place.reviews.length}</p> <p>avis</p>
+                    </div>
+                </div>
+            </div>
+            <div class="google-reviews-carousel">
+            </div>`;
+
+            $(element).append($(template.content.childNodes));
+            var reviewsCarousel = $(element).find(".google-reviews-carousel")[0];
+            var globalRateElement = $(element).find(".google-reviews-global-rate")[0];
+            window.raterJs({
+                element: globalRateElement,
+                starSize: 20,
+                readOnly: true
+            }).setRating(place.rating);
+
+
+            if (place.reviews && place.reviews.length > 0) {
+                place.reviews.forEach(function(review){
+                    const templateReview = document.createElement('template');
+                    templateReview.innerHTML = `<div>
+                        <div class="google-review-header">
+                            <img class="google-review-profile-pic" src="${review.authorAttribution.photoURI}"></img>
+                            <div class="google-review-profile-header">
+                                <p class="google-review-profile-name">${review.authorAttribution.displayName}</p>
+                                <p class="google-review-publish-time">${review.relativePublishTimeDescription}</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="google-review-rating"></div>
+                        </div>
+                        <div class="google-review-text-container">
+                            <p class="google-review-text">${review.text}</p>
+                            <a class="google-review-readmore" href="${review.googleMapsURI}">Lire la suite</a>
+                        </div>
+                    </div>`;
+                    
+                    const nNodes = templateReview.content.childNodes.length;
+                    if (nNodes !== 1) {
+                        console.error("probleme de parsing !");
+                        console.error(templateReview.content.childNodes);
+                    }
+                    var reviewElement = templateReview.content.firstChild;
+                    reviewsCarousel.appendChild(reviewElement);
+
+                    var reviewRateElement = $(reviewElement).find(".google-review-rating")[0];
+                    window.raterJs({
+                        element: reviewRateElement,
+                        starSize: 18,
+                        readOnly: true
+                    }).setRating(review.rating);
+                });
+            }
+            var resizeCarousel = function(element) {
+                var nslides = Math.round($(element).width() / 250.0);
+                console.log(`nslides = ${nslides}`);
+                $(element).slick("slickSetOption", "slidesToShow", nslides, true);
+            };
+            $(reviewsCarousel).slick({
+                infinite: true,
+                slidesToShow: 4
+            });
+            $(window).bind("resize", function(){
+                resizeCarousel(reviewsCarousel);
+            });
+            resizeCarousel(reviewsCarousel);
+        }
+    });
+
+    async function ssShowReview() {
+        await $.googleReviews($("#google-reviews"), {
+            googleMapsApiKey: "AIzaSyBVjfzHm9g41OT0UYZVbq13OO_PA8P21jY",
+            mapsPlaceID: "ChIJXzkLANaX9AkRrJchCsGO4kc"
+        });
+        return;
+    };
+
    /* Initialize
     * ------------------------------------------------------ */
     (function ssInit() {
@@ -494,6 +624,7 @@
         ssBackToTop();
         ssLoadPhotoswipe();
         ssInitEventTables();
+        ssShowReview();
     })();
 
 

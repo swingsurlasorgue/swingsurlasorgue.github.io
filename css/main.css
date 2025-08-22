@@ -4461,3 +4461,156 @@ div.social-network img {
         margin: 0 0 150px 0;
     }
 }
+
+
+
+/*
+    Google reviews styling
+*/
+
+#google-reviews {
+    margin: 10px 0;
+}
+
+.google-reviews-header {
+    width: 100%;
+    height: 75px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    text-align: left;
+    padding: 20px 25px 20px 25px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.google-reviews-header > * {
+    color: #000000;
+}
+
+.google-reviews-header-title:before {
+    background-image: url('/images/google-logo.png');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    content: "";
+    padding-right: 30px;
+}
+
+.google-reviews-header-title {
+    margin: 0;
+}
+
+.google-reviews-global-rate {
+    display: inline-block;
+    padding-top: 4px;
+    margin-right: 5px;
+}
+
+.google-reviews-global-rating {
+    display: inline-block;
+}
+
+.google-reviews-global-rating > p {
+    display: inline-block;
+    margin: 0;
+}
+
+div.google-reviews-header > :first-child {
+    margin-right: auto;
+}
+
+
+
+
+.google-reviews-carousel {
+    padding: 20px 0px;
+    margin: 0;
+}
+
+.slick-slide {
+    background-color: #eeeeee;
+    color: black;
+    margin: 0px 10px 0px 10px;
+    padding: 20px;
+    border-radius: 20px;
+    height: 300px;
+    text-align: left;
+    justify-content: flex;
+    flex-direction: column;
+}
+
+
+
+.google-review-header {
+    display: flex;
+}
+
+img.google-review-profile-pic {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    vertical-align: top;
+    margin-right: 12px;
+}
+
+.google-review-profile-header {
+    flex-grow: 1;
+    margin: auto;
+    vertical-align: top;
+}
+
+.google-review-profile-header > p {
+    display: block;
+    margin: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.google-review-profile-name {
+    font-weight: bold;
+    margin: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.google-review-publish-time { 
+    margin: 0;
+    color: #636363;
+    font-size: small;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.google-review-rating {
+    /* max-height: 20px; */
+    padding: 0;
+    margin: 3px 0px;
+}
+
+div.google-review-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+p.google-review-text {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #000000;
+    margin: 0;
+    max-height: 150px;
+    flex-grow: 1;
+}
+
+p.google-review-text:hover {
+    color: #202020;
+    font-style: italic;
+}
+
+a.google-review-readmore {
+    position: absolute;
+    bottom: 8px;
+}
