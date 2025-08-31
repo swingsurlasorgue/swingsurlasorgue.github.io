@@ -3533,6 +3533,11 @@ footer a:hover, footer a:focus {
     display: none;
 }
 
+.footer-menu * {
+    color: white;
+    font-size: 16px;
+}
+
 
 /* -------------------------------------------------------------------
  * ## go to top
@@ -4613,4 +4618,9 @@ p.google-review-text:hover {
 a.google-review-readmore {
     position: absolute;
     bottom: 8px;
+}
+
+div.black-and-white-header > h1 {
+    font-family: 'Brafesuit';
+    font-size: 200px;
 }
