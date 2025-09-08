@@ -4295,6 +4295,15 @@ article.blog-single .blog-content {
     font-weight: bold;
 }
 
+.youtube-video-band {
+    aspect-ratio: 16 / 9;
+}
+
+.youtube-video-band iframe {
+    width: 100%;
+    height: 100%;
+}
+
 
 
 
@@ -4350,7 +4359,6 @@ ul.style-tags li {
 }
 
 .band-about {
-    margin: 20px;
     padding: 20px 40px;
     background-color: rgb(226, 226, 226);
     border-radius: 5px;
@@ -4368,11 +4376,11 @@ ul.style-tags li {
 }
 
 img.country-flag {
-    margin: 0;
+    margin-left: 10px;
     display: inline-block;
     border-radius: 0;
-    width: 22px;
-    height: 18px;
+    aspect-ratio: 2 / 1;
+    max-height: 19px;
 }
 
 img.title-icon {
@@ -4401,22 +4409,22 @@ img.whatsapp-diffusion-qr-code {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: none;
+    margin: 0;
 }
 
 .band-img-box {
     display: inline-block;
     flex: 1;
     flex-basis: 20%;
-    margin: none;
+    margin: 0;
     padding: 2px;
     aspect-ratio: 1 / 1;
 }
 
 .band-gallery img {
     object-fit: cover;
-    margin: none;
-    padding: none;
+    margin: 0;
+    padding: 0;
     border-radius: 0;
     width: 100%;
     height: 100%;
