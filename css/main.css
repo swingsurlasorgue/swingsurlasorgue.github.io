@@ -489,7 +489,6 @@ pre,
 blockquote,
 figure,
 table,
-p,
 ul,
 ol,
 dl,
@@ -497,6 +496,10 @@ form,
 .video-container,
 .ss-custom-select {
     margin-bottom: 3rem;
+}
+
+p {
+    margin-bottom: 0.5rem;
 }
 
 
