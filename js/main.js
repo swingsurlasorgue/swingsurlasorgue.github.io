@@ -431,7 +431,7 @@
                     return datestr;
                 }},
                 {title: "Groupe", data: "groupe"},
-                {title: "&Eacutev&egravenements", data: "evenement"},
+                {title: "&Eacutev&egravenement", data: "evenement"},
                 {title: "Lieu", data: "lieu"},
                 {title: "Ville", data: "ville"}
             ]
@@ -604,6 +604,10 @@
         return;
     };
 
+    var ssLoadMusicExercises = function() {
+        
+    };
+
    /* Initialize
     * ------------------------------------------------------ */
     (function ssInit() {
@@ -625,6 +629,8 @@
         ssLoadPhotoswipe();
         ssInitEventTables();
         ssShowReview();
+
+        ssLoadMusicExercises();
     })();
 
 
