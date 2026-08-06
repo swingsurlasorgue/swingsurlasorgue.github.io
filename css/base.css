@@ -863,3 +863,34 @@ input[type="password"], textarea {
     margin-right: auto;
     text-align: center;
 }
+
+.bold {
+    font-weight: bold;
+    color: #0D0A0B;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bg-green {
+    background-color: #9AFF99;
+}
+
+.bg-blue {
+    background-color: #8F8CCF;
+}
+
+.bg-red {
+    background-color: #9AFF99;
+}
+
+.display-table {
+    display: table;
+    width: 100%;
+}
+.display-table > div {
+    display: table-cell;
+    padding: 5px;
+    border-radius: 3px;
+}

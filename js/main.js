@@ -604,8 +604,8 @@
         return;
     };
 
-    var ssLoadMusicExercises = function() {
-        
+    var ssLoadFAQAccordion = function() {
+      //  $("#faq-accordion").accordion();
     };
 
    /* Initialize
@@ -630,7 +630,7 @@
         ssInitEventTables();
         ssShowReview();
 
-        ssLoadMusicExercises();
+        ssLoadFAQAccordion();
     })();
 
 

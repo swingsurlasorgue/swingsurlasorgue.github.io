@@ -98,7 +98,8 @@ body {
  * ------------------------------------------------------------------- */
 
 a {
-    color: #862121;
+
+    color: #006ae4;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -1387,7 +1388,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .blog-list .blog-date a {
-    color: #862121;
+    color: #1884ff;
+    text-decoration: underline;
 }
 
 .blog-list .blog-date a:hover,
@@ -1538,6 +1540,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     /* margin-top: 2px; */
     max-height: 6vw;
 }
+/* 
+.header-logo a img:hover {
+    transform: rotateY(360deg);
+    transition: 1s;
+} */
 
 .header-title {
   display: inline-block;
@@ -1810,13 +1817,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     0%, 100% {
       opacity: 0;
     }
-    4.76% {
+    5% {
       opacity: 1;
     }
-    33.33% {
+    25% {
       opacity: 1;
     }
-    38.1% {
+    30% {
       opacity: 0;
     }
   }
@@ -2300,6 +2307,13 @@ html.no-csstransitions .home-content__main {
  * # about - (_site-layout.scss)
  *
  * ------------------------------------------------------------------- */
+
+ .s-index {
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    background-color: #FFFFFF;
+    position: relative;
+ }
 
 .s-about {
     padding-top: 12vw;
@@ -4309,6 +4323,112 @@ article.blog-single .blog-content {
 
 
 
+img.start-icon {
+    margin: 0;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 0;
+    width: 40px;
+    height: 30px;
+}
+
+img.finish-icon {
+    margin: 0;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 0;
+    width: 40px;
+    height: 30px;
+}
+
+img.location-icon {
+    margin: 0;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 0;
+    width: 35px;
+    height: 25px;
+}
+
+img.clock-icon {
+    margin: 0;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 0;
+    width: 38px;
+    height: 27px;
+}
+
+img.goodbye-icon {
+    margin: 0;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 0;
+    width: 38px;
+    height: 30px;
+}
+
+img.new-icon {
+    margin: 0;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 0;
+    width: 55px;
+    height: 43px;
+}
+
+/* FAQ styling */
+
+.ui-accordion-header {
+    font-family: "montserrat-regular", serif;
+    font-size: 2.4rem !important;
+    color: #000000;
+    line-height: 1.25;
+    background: none;
+    border: none;
+}
+
+.ui-accordion-header:hover {
+    background-color: #d6d6d6;
+}
+
+.ui-accordion-header-active {
+    background: none;
+}
+
+.ui-accordion-content {
+    font-family: "montserrat-regular", serif;
+}
+
+.ui-accordion-content-active {
+    border: 1px solid #b6b6b6 !important;
+}
+
+.ui-accordion-content a {
+    color: #006ae4 !important;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.ui-accordion-content a:hover, a:focus, a:active {
+    color: #191A3F;
+}
+
+a:focus {
+    outline: none;
+}
 
 /* Bands styling */
 
